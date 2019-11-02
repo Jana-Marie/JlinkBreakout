@@ -83,12 +83,12 @@ $EndComp
 $Comp
 L power:GND #PWR0106
 U 1 1 5CD07720
-P 7850 4300
-F 0 "#PWR0106" H 7850 4050 50  0001 C CNN
-F 1 "GND" V 7855 4172 50  0000 R CNN
-F 2 "" H 7850 4300 50  0001 C CNN
-F 3 "" H 7850 4300 50  0001 C CNN
-	1    7850 4300
+P 8300 4400
+F 0 "#PWR0106" H 8300 4150 50  0001 C CNN
+F 1 "GND" V 8305 4272 50  0000 R CNN
+F 2 "" H 8300 4400 50  0001 C CNN
+F 3 "" H 8300 4400 50  0001 C CNN
+	1    8300 4400
 	0    1    1    0   
 $EndComp
 $Comp
@@ -110,17 +110,17 @@ Text GLabel 7150 4050 2    50   Input ~ 0
 RST
 Text GLabel 5800 4300 2    50   Input ~ 0
 RST
-Text GLabel 7850 4000 0    50   Input ~ 0
+Text GLabel 8300 4200 0    50   Input ~ 0
 CLK
 Text GLabel 6650 4050 0    50   Input ~ 0
 CLK
 Text GLabel 5800 4000 2    50   Input ~ 0
 CLK
-Text GLabel 7850 4100 0    50   Input ~ 0
+Text GLabel 8300 4000 0    50   Input ~ 0
 REF
 Text GLabel 5800 3900 2    50   Input ~ 0
 DIO
-Text GLabel 7850 4200 0    50   Input ~ 0
+Text GLabel 8300 4300 0    50   Input ~ 0
 DIO
 Text GLabel 6650 4150 0    50   Input ~ 0
 DIO
@@ -138,17 +138,6 @@ F 2 "otter:conn_02x10_edge" H 5500 4000 50  0001 C CNN
 F 3 "~" H 5500 4000 50  0001 C CNN
 	1    5500 4000
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Male J3
-U 1 1 5DBC477C
-P 8050 4200
-F 0 "J3" H 8022 4080 50  0000 R CNN
-F 1 "SWD" H 8022 4171 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 8050 4200 50  0001 C CNN
-F 3 "~" H 8050 4200 50  0001 C CNN
-	1    8050 4200
-	-1   0    0    1   
 $EndComp
 $Comp
 L otter:SGM2019 U1
@@ -367,4 +356,17 @@ F 3 "" H 5800 4500 50  0001 C CNN
 	1    5800 4500
 	0    1    1    0   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J3
+U 1 1 5DBDC6F2
+P 8500 4200
+F 0 "J3" H 8580 4242 50  0000 L CNN
+F 1 "SWD" H 8580 4151 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 8500 4200 50  0001 C CNN
+F 3 "~" H 8500 4200 50  0001 C CNN
+	1    8500 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 8300 4100 0    50   Input ~ 0
+RST
 $EndSCHEMATC
