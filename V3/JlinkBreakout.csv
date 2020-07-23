@@ -1,0 +1,11 @@
+Reference, Quantity, Value, Footprint, Datasheet, LCSC
+C1 C2 ,2,2.2u,Capacitor_SMD:C_0805_2012Metric,~,C49217
+J1 ,1,JLINK,otter:conn_02x10_edge,~,C30867
+J2 ,1,TC,Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical,~,C11214
+J3 ,1,SWD,Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical,~,C161872
+R1 ,1,10k,Resistor_SMD:R_0603_1608Metric,~,C25804
+R2 ,1,20.35k,Resistor_SMD:R_0603_1608Metric,~,C22910
+R3 ,1,9.31k,Resistor_SMD:R_0603_1608Metric,~,C23126
+R4 ,1,5.76k,Resistor_SMD:R_0603_1608Metric,~,C23070
+U1 ,1,SGM2019,Package_TO_SOT_SMD:SOT-23-5,,C24330
+U2 ,1,switch_0204,otter:SS-24E06-TG,,C221978
